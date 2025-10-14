@@ -1,0 +1,8 @@
+secrets.h
+**/secrets.h
+**/build/**
+**/output/**
+.vscode/
+.pio/
+*.tmp
+*.log
