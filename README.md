@@ -89,12 +89,12 @@ secrets.h
 
 ```
 ESP32-Snap7-Comms/
-├─ main2.ino            // Fully commented sketch with tag mapping
-├─ main/                // Older minimal example (optional)
+├─ main/                // Main Arduino sketch folder
+│  └─ main.ino          // Fully commented sketch with tag mapping
 └─ secrets.h            // Your Wi‑Fi credentials (not committed)
 ```
 
-Use `main2.ino` as the primary sketch. It’s heavily commented and beginner‑friendly.
+Use `main/main.ino` as the primary sketch. It’s heavily commented and beginner‑friendly.
 
 ---
 
@@ -110,7 +110,7 @@ In TIA Portal (S7‑1200/1500):
 
 ### 7) Configure the sketch
 
-Open `main2.ino` and edit:
+Open `main/main.ino` and edit:
 - Wi‑Fi: `WIFI_SSID`, `WIFI_PASS` (or `secrets.h`)
 - PLC: `plcIP(192,168,0,99)`, `rack = 0`, `slot = 1` (typical for S7‑1200)
 - Tag map: edit the `TAG_MAP` array to match your DB addresses
