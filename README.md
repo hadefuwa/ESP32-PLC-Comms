@@ -31,19 +31,15 @@ Beginner‑friendly guide to connect an ESP32 to a Siemens S7‑1200/1500 PLC us
 
 ### 2) Install Settimino
 
-Recommended ESP32‑ready fork:
+Download from the official SourceForge repository:
 
-`https://github.com/stuartpittaway/Settimino`
+`https://sourceforge.net/projects/settimino/`
 
 Steps:
 1. Download ZIP
 2. Arduino IDE → Sketch → Include Library → Add .ZIP Library… → choose the ZIP
 
-Alternatively (official SourceForge version):
-
-`https://sourceforge.net/projects/settimino/`
-
-If you use the SourceForge version, you must configure `Platform.h` as shown below.
+**Note:** You must configure `Platform.h` as shown below.
 
 ---
 
